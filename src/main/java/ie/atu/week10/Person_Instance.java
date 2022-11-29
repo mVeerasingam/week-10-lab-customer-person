@@ -34,4 +34,13 @@ public class Person_Instance {
     public void setTele(String tele) {
         this.tele = tele;
     }
+
+    @Override
+    public String toString(){
+        return "Person{" +
+                "name'" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", telephone='" + tele + '\'' +
+                '}';
+    }
 }
